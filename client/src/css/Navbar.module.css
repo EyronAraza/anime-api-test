@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#main-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: #19195A;
+  z-index: 100; }
+  #main-nav #link-img {
+    width: auto;
+    height: 80%;
+    margin-left: 20px; }
+    #main-nav #link-img #logo-img {
+      width: auto;
+      height: 100%;
+      cursor: pointer;
+      transition: 0.25s; }
+      #main-nav #link-img #logo-img:hover {
+        filter: drop-shadow(0px 0px 4px white); }
+  #main-nav #searchbar-container {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    flex: 1; }
+    #main-nav #searchbar-container input {
+      color: black;
+      height: auto;
+      padding: 0 5px; }
+    #main-nav #searchbar-container #searchbar-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      border-radius: 5px;
+      padding: 0 15px;
+      background-color: #5C5CD4;
+      border: 0;
+      cursor: pointer; }
+      #main-nav #searchbar-container #searchbar-btn:hover {
+        background-color: #7070d9; }
+  #main-nav #login-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #5C5CD4;
+    border: 0;
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 1rem;
+    margin-right: 20px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none; }
+    #main-nav #login-btn:hover {
+      background-color: #7070d9; }
+
+/* For Phone screens (under 480px) */
+@media only screen and (max-width: 480px) {
+  #main-nav #link-img {
+    width: auto;
+    height: 60%;
+    margin-left: 5px; }
+  #main-nav #searchbar-container {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    flex: 1;
+    width: 10px; }
+    #main-nav #searchbar-container input {
+      width: 50vw; }
+    #main-nav #searchbar-container #searchbar-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      border-radius: 5px;
+      padding: 0 15px;
+      background-color: #5C5CD4;
+      border: 0;
+      cursor: pointer; }
+      #main-nav #searchbar-container #searchbar-btn:hover {
+        background-color: #7070d9; }
+  #main-nav #login-btn {
+    padding: 2px 2px;
+    width: 50px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    white-space: normal; } }
+
+/*# sourceMappingURL=Navbar.module.css.map */
